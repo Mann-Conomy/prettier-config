@@ -1,0 +1,28 @@
+{
+  "name": "@mann-conomy/prettier-config",
+  "version": "1.0.0",
+  "description": "A sharable Prettier config for the Mann-Conomy Project.",
+  "main": "prettier.config.js",
+  "scripts": {
+    "test": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mann-Conomy/prettier-config.git"
+  },
+  "keywords": [],
+  "author": "The Mann-Conomy Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mann-Conomy/prettier-config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
