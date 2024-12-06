@@ -27,12 +27,9 @@ $ yarn add --dev @mann-conomy/prettier-config
 ```js
 import prettierConfig from "@mann-conomy/prettier-config";
 
-/**
- * @type {import("prettier").Config}
- */
 const config = {
   ...prettierConfig,
-  semi: false,
+  singleQuote: true
 };
 
 export default config;

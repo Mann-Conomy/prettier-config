@@ -36,7 +36,7 @@ import prettierConfig from "@mann-conomy/prettier-config";
 
 const config = {
   ...prettierConfig,
-  semi: false,
+  singleQuote: true
 };
 
 export default config;
