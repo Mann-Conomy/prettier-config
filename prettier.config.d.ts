@@ -1,7 +1,5 @@
 import type { Config } from "prettier";
 
-declare const _exports: {
-    readonly config: Readonly<Config>;
-};
+declare const config: Readonly<Config>;
 
-export = _exports;
+export default config;

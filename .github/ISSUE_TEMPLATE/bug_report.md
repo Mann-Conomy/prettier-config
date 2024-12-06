@@ -35,8 +35,8 @@ A clear and concise description of what happens.
 import prettierConfig from "@mann-conomy/prettier-config";
 
 const config = {
-  ...prettierConfig,
-  singleQuote: true
+    ...prettierConfig,
+    singleQuote: true
 };
 
 export default config;

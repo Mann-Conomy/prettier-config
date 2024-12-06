@@ -28,8 +28,8 @@ $ yarn add --dev @mann-conomy/prettier-config
 import prettierConfig from "@mann-conomy/prettier-config";
 
 const config = {
-  ...prettierConfig,
-  singleQuote: true
+    ...prettierConfig,
+    singleQuote: true
 };
 
 export default config;

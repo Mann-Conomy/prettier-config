@@ -25,8 +25,8 @@ If applicable, provide an example of how the new feature or improvement would be
 import prettierConfig from "@mann-conomy/prettier-config";
 
 const config = {
-  ...prettierConfig,
-  singleQuote: true
+    ...prettierConfig,
+    singleQuote: true
 };
 
 export default config;
